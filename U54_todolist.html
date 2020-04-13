@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="U54_todolist.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" href="/Users/yutungcheng/Downloads/fontawesome-free-5.13.0-web/css/all.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-dark bg-primary justify-content-between">
+      <h1 class="btn btn-outline-light">Todo List</h1>
+    </nav>
+  </header>
+
+  <div class="m-5">
+    <header class="mb-3">
+      <h4>Add DO list</h4>
+      <div class="form-inline">
+        <input type="text" placeholder="add item" id="newTodo" class="form-control mr-2">
+        <button id="addBtn" class="btn btn-info">Add</button>
+      </div>
+    </header>
+    <div>
+      <ul id="my-todo" class="list-unstyled"> </ul>
+    </div>
+    <div>
+      <div class="Don_list"></div>
+      <h4>Done list</h4>
+      <ul id="done-todo" class='list-unstyled'></ul>
+    </div>
+    <!--add already checked of ul-->
+
+
+    <!-- <input value="Click s" onclick="greeting()" type="button"> -->
+
+</body>
+
+
+<script src="U54_todolist.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
